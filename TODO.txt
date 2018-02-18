@@ -1,0 +1,4 @@
+When adding currencies for a new user
+
+Check if there are no existing currencies for the user.
+If true, then make the first currency the base_currency in the settings table.

@@ -1,0 +1,59 @@
+body {
+    background: #FFFFEF;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #337733;
+}
+
+a:hover {
+    color: #66AACC;
+}
+
+#latest_transactions {
+    border-collapse: collapse;
+}
+
+#latest_transactions th {
+    text-align: left;
+}
+
+#latest_transactions th.right_align {
+    text-align: right;
+    padding-right: 15px;
+}
+
+#latest_transactions td {
+    padding-right: 15px;
+    border-bottom: 1px solid #559955;
+}
+
+#latest_transactions td.right_align {
+    text-align: right;
+}
+
+.balances {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+    border-collapse: collapse;
+}
+
+.balances th {
+    text-align: left;
+}
+
+.balances td {
+    border-bottom: 1px solid #559955;
+}
+
+.balances td.right_align {
+    text-align: right;    
+}
+
+.balance-total {
+    font-weight: bold;
+}

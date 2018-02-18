@@ -1,0 +1,2 @@
+When computing balances, run two select queries, one for matching debits and
+another for matching credits. Multiply totals by account sign.
